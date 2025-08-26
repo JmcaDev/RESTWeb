@@ -8,7 +8,7 @@ export class AppRoutes {
 
         const router = Router()
 
-        router.use("/api/todo", TodosRoutes.routes)
+        router.use("/api/todos", TodosRoutes.routes)
 
         return router
     }
